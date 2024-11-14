@@ -13,4 +13,6 @@ urlpatterns = [
     path('api/delete/<int:pk>/',DeleteView.as_view(), name='delete'),
     path('api/search/<str:search>/',Search.as_view(), name='Search'),
     path('index/',index, name='index'),
+    path('createDestination/',createDestination, name='createDestination'),
+    path('editDestination/<int:pk>/',editDestination, name='editDestination'),
 ]
