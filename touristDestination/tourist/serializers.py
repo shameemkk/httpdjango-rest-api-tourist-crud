@@ -1,3 +1,4 @@
+from typing import Required
 from .models import Destination
 from rest_framework import serializers
 

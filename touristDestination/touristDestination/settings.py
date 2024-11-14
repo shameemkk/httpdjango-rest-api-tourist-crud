@@ -113,6 +113,9 @@ USE_I18N = True
 
 USE_TZ = True
 
+# settings.py
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 10000  # Adjust this value as needed
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/

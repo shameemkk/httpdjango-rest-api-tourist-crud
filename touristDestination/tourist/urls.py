@@ -15,4 +15,6 @@ urlpatterns = [
     path('index/',index, name='index'),
     path('createDestination/',createDestination, name='createDestination'),
     path('editDestination/<int:pk>/',editDestination, name='editDestination'),
+    path('viewDestination/<int:pk>/', viewDestination, name='viewDestination'),
+    path('deleteDestination/<int:pk>/', deleteDestination, name='deleteDestination'),
 ]
