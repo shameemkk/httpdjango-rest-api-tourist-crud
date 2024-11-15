@@ -1,6 +1,6 @@
 # Django REST Tourist CRUD
 
-A full-stack web application for managing tourist destinations. This project provides a user-friendly platform to create, view, update, and delete tourist destination information including images, weather conditions, location details, and Google Maps integration.
+A full-stack web application for managing tourist destinations. This project provides a user-friendly platform to create, view, update, and delete tourist destination information including images, weather conditions, location details.
 
 ## About The Project
 
